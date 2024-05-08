@@ -63,7 +63,7 @@ let projects =
           A portfolio to demonstrate projects I've worked on.
           Created with React`,
           portfolioImage,
-          "https://github.com/Henrik-Ehde/Portfolio"
+          "https://github.com/Henrik-Ehde/henrik-ehde.github.io/tree/Work"
         ),
 
         new Project (

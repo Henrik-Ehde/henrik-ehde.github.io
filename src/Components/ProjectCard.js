@@ -16,7 +16,7 @@ export default function ProjectCard(props) {
 
         <div className = "Buttons">
           {props.project.GithubUrl != null && <a target="_blank" href={props.project.GithubUrl}> <button id="bt" >Github</button> </a>}
-          {props.project.SiteUrl != null && <a target="_blank" href={props.project.Site}> <button id="bt" >Site</button> </a>}   
+          {props.project.SiteUrl != null && <a target="_blank" href={props.project.SiteUrl}> <button id="bt" >Site</button> </a>}   
         </div>
 
          

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css';
-import Resume from '../Files/HenrikEhdeResume.pdf';
+import Resume from '../Files/CV Henrik Ehde.pdf';
 
 export default function Header() {
   return (
