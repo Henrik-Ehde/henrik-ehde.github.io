@@ -1,0 +1,26 @@
+.Header
+{
+    background-color: #4a306d;
+    position: fixed;
+    width: 100%;
+    
+    
+    padding: 5px;
+
+    a{
+        color: #7ea3cc;
+        padding: 1vh 3vw;
+        margin: 0 2vw;
+        font-size: calc(10px + 2vmin);
+        text-decoration: none;
+        transition-duration: 400ms;        
+    }
+
+    a:hover
+    {
+        color: #4a306d;
+        background-color: #7ea3cc;
+        transition-duration: 400ms;
+    }
+}
+

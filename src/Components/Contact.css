@@ -1,0 +1,10 @@
+.Contact
+{
+    padding-bottom: calc(100px + 10vw);
+
+    color: #7EA3CC;
+
+    a {
+        color: #7EA3CC;
+    }
+}
