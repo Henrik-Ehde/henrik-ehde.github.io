@@ -1,9 +1,15 @@
 .Intro
 {
     color: #7EA3CC;
+
+    h1 {
+        margin-top:150px;
+        color: #BF9973;
+      }
+    
+      p {
+        padding: 0 30vw
+        
+      }
 }
 
-h1 {
-    margin-top:150px;
-    color: #BF9973;
-  }

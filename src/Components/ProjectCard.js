@@ -1,23 +1,22 @@
 import React from 'react'
 import './ProjectCard.css';
-import image from '../Images/Bakery.png';
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
   return (
     <div className = "ProjectCard">
-        <img src={image} alt="Bakery Screenshot"></img>
+        <img src={props.project.Image} alt="Bakery Screenshot"></img>
 
 
       <div className = "TextBox">
-        <h3>Title</h3>
-        <p>
-          placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-          tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc
+        <h3>{props.project.Title}</h3>
+        
+        <p style={{ whiteSpace: 'pre-line' }}>
+          {props.project.Description}
         </p>
 
         <div className = "Buttons">
-          <a target="_blank" href="https://github.com/Henrik-Ehde/Bakery"> <button id="bt" >Github</button> </a>
-          <a target="_blank" href="https://henrik-ehde.github.io/Bakery/"> <button id="bt" >Site</button> </a>  
+          {props.project.GithubUrl != null && <a target="_blank" href={props.project.GithubUrl}> <button id="bt" >Github</button> </a>}
+          {props.project.SiteUrl != null && <a target="_blank" href={props.project.Site}> <button id="bt" >Site</button> </a>}   
         </div>
 
          

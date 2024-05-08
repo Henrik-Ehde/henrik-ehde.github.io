@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './Components/Header';
-import ProjectCard from './Components/ProjectCard';
 import Contact from './Components/Contact';
 import Intro from './Components/Intro';
+import Projects from './Components/Projects';
 
 
 function App() {
@@ -13,10 +13,7 @@ function App() {
       <div className="Main">
         <Intro />
 
-        <h2 id="Projects">Projects</h2>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <Projects />
 
         <Contact />
       </div>
