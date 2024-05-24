@@ -2,7 +2,6 @@ import BakeryImage from '../Images/Bakery.png';
 import movieDatabaseImage from '../Images/moviedb.png';
 import CardTraderImage from '../Images/CardTrader.png';
 import portfolioImage from '../Images/portfolio.png';
-import assetTrackingImage from '../Images/Asset Tracking Screenshot.png';
 import ProjectCard from './ProjectCard';
 
 import React from 'react'
