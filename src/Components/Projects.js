@@ -1,5 +1,6 @@
 import BakeryImage from '../Images/Bakery.png';
 import movieDatabaseImage from '../Images/moviedb.png';
+import CardTraderImage from '../Images/CardTrader.png';
 import portfolioImage from '../Images/portfolio.png';
 import assetTrackingImage from '../Images/Asset Tracking Screenshot.png';
 import ProjectCard from './ProjectCard';
@@ -35,17 +36,26 @@ class Project
 
 let projects =
 [
-    new Project (
-        "Movie Database",       
-        `A wep application connected to a database where users can browse movies.
-        Users can register an account and log in, which will affect what they see and what actions they can take.
-        Created with ASP.NET Core MVC. Deployed on Azure and connected to an azure database.`,
-        movieDatabaseImage,
-        "https://github.com/Henrik-Ehde/MovieDatabase",
-        "https://henriksmoviedb.azurewebsites.net/"
-    ),
-    
-    
+  new Project (
+    "Card Trader",       
+    `A wep application where users can buy and sell cards from trading card games (TCGs).
+    The project contains a frontend created with react and an ASP.NET API connected to a database.
+    `,
+    CardTraderImage,
+    "https://github.com/Henrik-Ehde/CardTrader"
+),
+
+new Project (
+  "Movie Database",       
+  `A wep application connected to a database where users can browse movies.
+  Users can register an account and log in, which will affect what they see and what actions they can take.
+  Created with ASP.NET Core MVC. Deployed on Azure and connected to an azure database.`,
+  movieDatabaseImage,
+  "https://github.com/Henrik-Ehde/MovieDatabase",
+  "https://henriksmoviedb.azurewebsites.net/"
+),
+
+
     new Project (
         "Bakery",
         `Frontend for a small e-commerce website for a bakery.
@@ -66,12 +76,12 @@ let projects =
           "https://github.com/Henrik-Ehde/henrik-ehde.github.io/tree/work"
         ),
 
-        new Project (
-          "Asset Tracking",
-          `A C# Console application used to keep track of assets (Computers and Phones) owned company. The assets are stored in a local database using Entity Framework.
-          `,
-          assetTrackingImage,
-          "https://github.com/Henrik-Ehde/Asset-Tracking-with-Entity-Framework"        
-        )
+        // new Project (
+        //   "Asset Tracking",
+        //   `A C# Console application used to keep track of assets (Computers and Phones) owned company. The assets are stored in a local database using Entity Framework.
+        //   `,
+        //   assetTrackingImage,
+        //   "https://github.com/Henrik-Ehde/Asset-Tracking-with-Entity-Framework"        
+        // )
 
 ]
