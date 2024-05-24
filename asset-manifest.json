@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.af58e3bc.css",
-    "main.js": "/static/js/main.eeaa2c05.js",
+    "main.js": "/static/js/main.6bea1a27.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/moviedb.png": "/static/media/moviedb.59d79e4232302e63da30.png",
     "static/media/Bakery.png": "/static/media/Bakery.08afe6c84247c01ffff4.png",
     "static/media/portfolio.png": "/static/media/portfolio.2b2681beddffbbb8c9f6.png",
+    "static/media/CardTrader.png": "/static/media/CardTrader.50a44cf3e8f64d21ce58.png",
     "static/media/Asset Tracking Screenshot.png": "/static/media/Asset Tracking Screenshot.1d4ebcd55889ee480543.png",
     "static/media/CV Henrik Ehde.pdf": "/static/media/CV Henrik Ehde.30181ec0a09f381f21af.pdf",
     "index.html": "/index.html",
     "main.af58e3bc.css.map": "/static/css/main.af58e3bc.css.map",
-    "main.eeaa2c05.js.map": "/static/js/main.eeaa2c05.js.map",
+    "main.6bea1a27.js.map": "/static/js/main.6bea1a27.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af58e3bc.css",
-    "static/js/main.eeaa2c05.js"
+    "static/js/main.6bea1a27.js"
   ]
 }
