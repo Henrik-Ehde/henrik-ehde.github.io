@@ -39,9 +39,11 @@ let projects =
     "Card Trader",       
     `A wep application where users can buy and sell cards from trading card games (TCGs).
     The project contains a frontend created with react and an ASP.NET API connected to a database.
+    The site and database are deployed on Azure.
     `,
     CardTraderImage,
-    "https://github.com/Henrik-Ehde/CardTrader"
+    "https://github.com/Henrik-Ehde/CardTrader",
+    "https://CardTrader.azurewebsites.net/"
 ),
 
 new Project (
