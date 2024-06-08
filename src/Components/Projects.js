@@ -50,10 +50,10 @@ new Project (
   "Movie Database",       
   `A wep application connected to a database where users can browse movies.
   Users can register an account and log in, which will affect what they see and what actions they can take.
-  Created with ASP.NET Core MVC. Deployed on Azure and connected to an azure database.`,
+  Created with ASP.NET Core MVC. Deployed on Azure with an integrated SQLite database.`,
   movieDatabaseImage,
   "https://github.com/Henrik-Ehde/MovieDatabase",
-  "https://henriksmoviedb.azurewebsites.net/"
+  "https://moviedb.azurewebsites.net/"
 ),
 
 
