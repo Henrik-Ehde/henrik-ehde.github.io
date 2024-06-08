@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af58e3bc.css",
-    "main.js": "/static/js/main.c49a17e9.js",
+    "main.js": "/static/js/main.9acc2086.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/moviedb.png": "/static/media/moviedb.59d79e4232302e63da30.png",
     "static/media/Bakery.png": "/static/media/Bakery.08afe6c84247c01ffff4.png",
@@ -10,11 +10,11 @@
     "static/media/CV Henrik Ehde.pdf": "/static/media/CV Henrik Ehde.30181ec0a09f381f21af.pdf",
     "index.html": "/index.html",
     "main.af58e3bc.css.map": "/static/css/main.af58e3bc.css.map",
-    "main.c49a17e9.js.map": "/static/js/main.c49a17e9.js.map",
+    "main.9acc2086.js.map": "/static/js/main.9acc2086.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af58e3bc.css",
-    "static/js/main.c49a17e9.js"
+    "static/js/main.9acc2086.js"
   ]
 }
